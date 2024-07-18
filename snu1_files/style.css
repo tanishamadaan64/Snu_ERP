@@ -1,0 +1,87 @@
+/* :root {
+    --brand-color: #013755;
+}
+
+.navbar {
+    background-color: var(--brand-color);
+}
+
+.btn-primary {
+    background-color: var(--brand-color);
+    border-color: var(--brand-color);
+} */
+
+@font-face {
+  font-family: "Source Sans Pro", sans-serif;
+  src: url(../fonts/SourceSansPro-Regular.otf);
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 0.5rem 0.5rem;
+}
+
+.card-text:last-child {
+  font-size: 10px;
+}
+
+.navbar {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.application-card a,
+.application-card a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.application-card {
+  color: cornflowerblue;
+}
+
+.application-card:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  border-color: cornflowerblue;
+}
+
+.vertical-align {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.blockquote {
+  font-size: 1rem;
+}
+
+.navbar-text {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
+.border-primary {
+  border-color: var(--ud-icon-blue) !important;
+}
+
+.list-group-item {
+  padding: 0;
+}
+
+@media  (min-width: 600px) {
+.cfoot{ 
+position: fixed;
+}
+}
+
+html {height: 100%;}
+.mainBody {display: flex; flex-direction: column; min-height: 100%;}
+.mainContainer {flex: 100;}
+.mainFooter {flex: 1;}
+
+
